@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    header {
+        background-color: khaki;
+        width: 100%;
+        padding:15px;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-size:25;
+        color:black
+
+    }
+        .header2 {
+        background-color: khaki;
+        width: 100%;
+        padding:3px;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-size:25;
+        color:black
+
+    }
+    body {
+        background-color:beige
+    }
+    img {
+  float: right;
+  border: 1px dotted black;
+  margin: 0px 0px 15px 20px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.left-column {
+  flex: 0 0 60%;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.right-column {
+  flex: 0 0 40%;
+  background-color: #e0e0e0;
+  padding: 20px;
+}
+
+/* Optional: Stack on mobile screens */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .left-column, .right-column {
+    flex: 0 0 100%;
+  }
+}
+
+
+</style>
+
+<body> 
+<header>
+    <h1>My Personal Website!! </h1>
+    <p> Thank you so much stardance!! </p>
+</header>
+<div class="container">
+  <div class="left-column">
+    <h2>Things that I enjoy doing!!!</h2>
+    <p> I enjoy playing some sports, I play vrsity Baseball at my school and I will start wrestling in the winter!!</p>
+    <p> I am a Saint Louis Cardinals Fan!!</p>
+    <p> I also enjoy working out to get stronger, too look good and be good at baseball!!</p>
+    <p> My current Project is a ESP32 powered Fixed Winged Aircraft!!</p>
+    <img src="images (3)" alt="bat">
+  </div>
+  <div class="right-column">
+    <p> My fixed winged aircraft hardware project links: </p>
+    <a href="https://macondo.hackclub.com/projects/16922">Macando Link </a>
+    <p></p>
+    <a href="https://stardance.hackclub.com/projects/48597">Stardance Link</a>
+    <p></p>
+    <a href="https://github.com/Biscutbuilder/Aircraft">My Github</a>
+    <img src="Screenshot 2026-08-16 063722.png" alt="plen image">
+  </div>
+</div>
+<div class="header2">
+    <h3>More about my plane project!</h3>
+</div>
+<p> My Fixed winged Aircraft project is a hardware and CAD project that i have been working on for around 2 years now</p>
+<p> The Aircraft will use 2 ESP32 microcontrollers that are using ESPNOW to communicate with eachother. One ESP will be a ground system and will take human inputs via joysticks and potentiomiter to control flight and thrust, ESPNOW will relay information to the Aircraft, that will have 4 Servos and BLDC motor controlled by the ESP32. The ESP inside the plane will exicute the commands from the other ESP.</p>
+<p> The contraisnt on this project are the following: Final cost of under 150 USD, Use only ESPNOW to communicate, be able to contain a Arduino Uno to preform data collection, and the aircframe must be easy to decontruct and change parts.</p>
+<div class="header2">
+    <h3>Contacts and Info</h3>
+    <a href="https://github.com/Biscutbuilder">My Github</a>
+    <a href="https://www.instagram.com/12_nickel/">Instagram</a>
+    <a href="https://www.perfectgame.org/Players/Playerprofile.aspx?ID=1748728">Perfect Game Profile</a>
+    <a href="https://Cardinals.com">Favorite baseball team</a>
+</div>
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
